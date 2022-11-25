@@ -1,0 +1,11 @@
+WHILE not-a-condition DO
+  move
+  IF next-is-not-enemy THEN
+    turnright
+    move
+  ELSE
+    infect
+    move
+  END IF
+  infect
+END WHILE

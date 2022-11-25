@@ -1,0 +1,7 @@
+IF next-is-not-enemy
+  turnright
+  move
+ELSE
+  infect
+  move
+END IF

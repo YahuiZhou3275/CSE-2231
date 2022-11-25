@@ -1,0 +1,10 @@
+WHILE true DO
+  move
+  IF next-is-not-enemy THEN
+    turnright
+    move
+  ELSE
+    infect
+    move
+  END IF
+  infect

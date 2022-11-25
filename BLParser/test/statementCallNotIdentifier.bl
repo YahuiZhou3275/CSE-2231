@@ -1,0 +1,7 @@
+IF next-is-not-enemy THEN
+  notacall
+  move
+ELSE
+  infect
+  move
+END IF

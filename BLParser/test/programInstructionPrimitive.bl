@@ -1,0 +1,21 @@
+PROGRAM Test IS
+
+  INSTRUCTION move IS
+     infect
+  END move
+  
+  INSTRUCTION two IS
+    move
+  END two
+
+BEGIN
+  infect
+  WHILE true DO
+    two
+    IF next-is-not-empty THEN
+      infect
+    ELSE
+      two
+    END IF
+  END WHILE
+END Test
