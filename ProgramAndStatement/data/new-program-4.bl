@@ -1,0 +1,14 @@
+PROGRAM Test IS
+
+  INSTRUCTION one IS
+     move
+     infect
+  END one
+  
+  INSTRUCTION two IS
+    turnleft
+    infect
+  END two
+BEGIN
+
+END Test

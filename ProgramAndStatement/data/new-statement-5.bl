@@ -1,0 +1,6 @@
+IF random THEN
+  infect
+  WHILE next-is-not-enemy DO
+    turnright
+  END WHILE
+END IF

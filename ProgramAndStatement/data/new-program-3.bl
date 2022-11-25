@@ -1,0 +1,9 @@
+PROGRAM Test IS
+
+BEGIN
+  WHILE true DO
+    move
+    turnright
+    infect
+  END WHILE
+END Test

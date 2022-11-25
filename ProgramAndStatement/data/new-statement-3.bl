@@ -1,0 +1,5 @@
+IF random THEN
+  infect
+ELSE
+  move
+END IF
